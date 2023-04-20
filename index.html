@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty use API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section id="rm">
+    <div class="formulario">
+        <form action="" method="get">
+            <div class="persona">
+                <h2>Busca de personagens</h2>
+                <label for="characterId">ID do personagem</label>
+                <input type="number" name="characterId" id="characterId">
+            </div>
+         
+            <div class="info">
+                <h2>Informacoes</h2>
+                <label for="name">Nome</label>
+                <input type="checkbox" name="name" id="name">
+                
+                <label for="status">Status</label>
+                <input type="checkbox" name="status" id="status">
+                
+                <label for="species">Espécie</label>
+                <input type="checkbox" name="species" id="species">
+                
+                <label for="gender">Gênero</label>
+                <input type="checkbox" name="gender" id="gender">
+                
+                <label for="origin">Planeta de origem</label>       
+                <input type="checkbox" name="origin" id="origin">
+                
+                <!--<label for="episode">Episódios</label>
+                <input type="checkbox" name="episode" id="episode">-->
+            </div>
+
+            <div class="btn">
+                <button type="submit" id="btn-go">Pesquisar</button>
+                <button type="reset" id="btn-reset">Limpar</button>
+            </div>
+        </form>
+    </div>
+
+    <div id="result-style">
+        <img src="" alt="" id="img">
+        <div id="content"></div>
+    </div>
+
+</section>
+</body>
+<script src="script.js"></script>
+</html>

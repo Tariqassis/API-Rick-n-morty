@@ -1,0 +1,98 @@
+* {
+    font-family: "Rick and Morty Horror Font";
+    letter-spacing: 5px;
+}
+
+@font-face {
+    font-family: "Rick and Morty Horror Font";
+    src: url(get_schwifty.ttf);
+}
+
+body {
+    background-color: #ffffff;
+}
+
+input[type='number'] {
+    padding: 5px;
+    width: 50px;
+    color: rgb(0, 131, 131);
+}
+
+
+form label {
+    padding-left: 70px;
+}
+
+.persona {
+    margin-top: 90px;
+    text-align: center;
+    color: rgb(0, 131, 131);
+}
+
+.persona h2 {
+    font-size: 45px;
+    margin-bottom: 35px;
+    
+}
+
+.persona label {
+    text-align: center;
+    font-size: 25px;
+}
+
+.info {
+    text-align: center;
+    margin-top: 75px;
+    color: rgb(0, 131, 131);
+}
+
+.info h2 {
+    font-size: 35px;  
+}
+
+.info label {
+    text-align: center;
+    font-size: 20px;
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 150px;
+    margin: 0 auto;
+}
+
+.btn button {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 150px;
+    margin: 10px;
+    color: rgb(0, 131, 131);
+    cursor: pointer;
+    background: rgb(204, 246, 253);
+}
+
+
+.result-style {
+    background-color: white;
+    display: flex;
+    text-align: left;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 30px rgb(0 0 0 / 0.7);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+img {
+    max-height: 200px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+
+
+
