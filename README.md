@@ -16,7 +16,7 @@ Rick n Morty é uma série de animação adulta de comédia e ficção científi
 
 ## Demonstração
 
-Insira um gif ou um link de alguma demonstração
+https://user-images.githubusercontent.com/86030679/233241649-5b12e4e8-425d-4003-b2c8-79a756a7c095.mp4
 
 
 ## Documentação
